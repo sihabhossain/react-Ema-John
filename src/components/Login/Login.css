@@ -5,7 +5,6 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     padding-left: 40px;
-    box-shadow:rgba(255, 153, 0, 0.6) 8px 6px;
 }
 
 .form-title {
@@ -39,8 +38,6 @@
     border-radius: 5px;
     font-size: 1.5em;
     padding-left: 10px;
-    background-color: white;
-    color: black;
 }
 
 .btn-submit {
@@ -58,8 +55,4 @@
 
 .btn-submit:hover {
     background: rgba(255, 153, 0, 0.6);
-}
-
-.small-txt{
-    text-align: center;
 }
