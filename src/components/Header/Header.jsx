@@ -16,6 +16,8 @@ const Header = () => {
         <Link to="/login">Login</Link>
         <Link to="/signup">Sign Up</Link>
         <Link to="/checkout">Checkout</Link>
+
+        {user && <span>{user.email}</span>}
       </div>
     </nav>
   );
